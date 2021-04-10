@@ -1,0 +1,8 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snakeUni/webpack-demo.git",
+  "author": "fox <1025687605@qq.com>",
+  "license": "MIT"
+}
