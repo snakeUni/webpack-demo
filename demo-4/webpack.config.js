@@ -12,9 +12,15 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader']
       },
+      // 图片的处理
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'assets/resource'
+        type: 'asset/resource'
+      },
+      // 字体的处理
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource'
       }
     ]
   }
