@@ -1,0 +1,13 @@
+{
+  "name": "demo-6-split",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:dynamic": "webpack -c webpack.config.dynamic.js"
+  }
+}
